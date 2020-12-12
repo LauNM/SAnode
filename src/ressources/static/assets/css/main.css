@@ -1,0 +1,34 @@
+
+main div.main {
+    color: #626262;
+}
+
+main div.main ul li {
+    list-style-type: circle;
+    margin-top: 35px;
+}
+
+main div.main ul li::marker {
+    color: #FFEE02;
+}
+
+main div.main ul li span {
+    font-weight: bold;
+}
+
+main span.list {
+    font-weight: bold;
+}
+
+main span.textIam {
+    color:#FFEE02;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#FFEE02;
+}
+
+
+

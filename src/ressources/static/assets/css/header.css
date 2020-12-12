@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 20px;
+  background-color: black;
+  color: #626262;
+}
+
+body h1,h2,h3,h4,h5,h6 {
+  text-align: center;
+  color: #FFEE02;
+}
+body h2 {
+font-size: 35px;
+}
+body h3 {
+font-size: 30px;
+padding-bottom: 5%;
+}
+
+/* NAV BAR */
+@media (min-width: 992px) { 
+nav ul li {
+  border-right: 1px solid #FFEE02;
+}
+nav ul li:last-child {
+  border-right: none;
+}
+}
+
+nav ul li a.navAdd {
+color: white !important;
+}
+
+nav ul li a.navAdd:hover {
+color: #FFEE02;
+}
+
+div.dropdown-menu {
+background-color: black !important;
+border: 1px solid #FFEE02;
+} 
+li a.dropdown-item{
+color: white !important;
+}
+
+li a.dropdown-item:hover{
+background-color: #FFEE02;
+color: black !important;
+}
